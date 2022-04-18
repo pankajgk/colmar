@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    height: 64px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+   }
+nav .logo{
+    height: 50px;
+}
+nav div{
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    font-weight: bold;
+}
+nav h1 span{
+   
+    color: rgb(179, 172, 172);
+}
+ul{
+    display: flex;
+    list-style: none; 
+}
+nav ul li{
+    margin: 0 16px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.banner{
+    display: flex;
+    background-color: rgb(223, 223, 221);
+    width: 100%;
+    padding: 0 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner img{
+    width: 60%;
+    height: 500px;
+    padding: 32px 24px 32px 0;
+}
+.text{
+    max-width: 30%;
+    margin-left: 24px;
+    margin-right: 10% ;
+}
+.text h1{
+    color: rgb(83, 80, 80);
+  font-size: 50px; 
+  padding: 16px 0;
+  font-weight: bold;  
+}
+.text p{
+    font-size: 30px;
+    padding: 16px 0;
+}
+.text button{
+    color: white;
+    background-color: rgb(109, 104, 104);
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 16px;
+}
+
+.information{
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+    max-height: auto;
+    padding: 0 0 32px 24px;
+}
+.student{
+    display: block;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.student img{
+    width: 97%;
+    height: 400px;
+    padding: 32px 32px 32px 0;
+}
+.student .info{
+    width: 90%;
+}
+.info h1{
+    margin-bottom: 24px;
+    font-size: 42px;
+}
+.info p{
+    margin-bottom: 24px;
+    font-size: 19px;
+}
+#emanuel{
+    margin-bottom: 32px;
+    font-size: 15px;
+}
+.info img{
+    width: 40%;
+}
+
+.information .more{
+    max-width: 40%;
+    
+}
+.info1{
+    display: flex;
+    max-height: 45%;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border: 1px solid rgb(184, 178, 178);
+}
+
+.info1 img{
+    max-width: 35%;
+    padding: 16px;
+}
+.info orientation{
+    width: 65%;
+
+}
+
+.info2{
+    display: flex;
+    max-height: 45%;
+    align-items: center;
+    margin-top: 1px;;
+    border: 1px solid rgb(184, 178, 178);
+}
+
+.info2 img{
+    max-width: 35%;
+    padding: 16px;
+}
+.info campus{
+    width: 65%;
+}
+
+.info3{
+    display: flex;
+    max-height: 45%;
+    align-items: center;
+    background-color:rgb(184, 178, 178) ;
+    border: 1px solid rgb(184, 178, 178);
+}
+
+.info3 img{
+   max-width: 35%;
+   padding: 16px;
+}
+.info guest{
+    width: 65%;
+}
+
+
+
+.learning {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c4c1c1;
+    padding-bottom: 32px;
+  }
+
+  
+  .start-learning {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .course {
+    background-color: #ffffff;
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .course-img img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .course-content {
+    padding: 2px 16px 24px 16px;
+  }
+  .course-content h3{
+   font-size: 25px;
+   padding: 16px 0;
+  }
+  .course-content h4{
+    color: rgb(105, 101, 101);
+    font-size: 20px;
+    font-weight: 0;
+    padding: 8px 0;
+   }
+  .course-content p {
+    color:rgb(105, 101, 101);
+    font-size: 18px;
+    padding-bottom: 24px;
+  }
+
+
+  .thesis{
+      background-color: #f2f2f2;
+      padding: 0 24px;
+      width: 100%;
+  }
+  .thesis h1{
+     font-weight: bold;
+     padding-top: 32px;
+      margin: 32px 40%;
+  }
+  .thesis-info{
+      display:flex;
+  }
+.thesis video{
+
+    height: 400px;
+}
+.pank{
+    max-width: 60%;
+}
+.pank h2{
+    padding-top: 24px;
+    font-size: 35px;
+}
+.pank p{
+    padding: 16px 0 32px 0;
+    font-size: 18px; 
+}
+.thesis-info .more1{
+   min-width: 40%
+}
+.more1 .fisma{
+    background-color: rgb(192, 189, 189);
+    width: 100%;
+    height: 180px;
+    display:flex;
+}
+.fisma img{
+    padding:16px;
+    height:180px;
+}
+
+.more1 .now{
+    width: 100%;
+    height: 200px;
+    display:flex;
+}
+.now img{
+    padding: 16px;
+    height:200px;
+}
+.fisma{
+    align-items: center;
+  min-width: 65%;
+}
+.now{
+    align-items: center;
+    min-width: 65%;
+ 
+}
+.thesis-fisma h3{
+    font-size: 30px;
+   
+}
+.now h3{
+    font-size: 30px;
+    
+}
+
+
+footer {
+    display: flex;
+    border-top: 1px solid #f2f2f2;
+    padding-top: 16px;
+    width: 100%;
+  }
+  
+  footer .container {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding: 8px 24px 24px 24px;
+  
+  }
+ footer .terms{
+    display: flex;
+    font-size: 14px;
+    float:  right;
+    padding: 8px 24px 24px 900px;
+ }
+ .terms span{
+     padding-right: 20px;
+ }
